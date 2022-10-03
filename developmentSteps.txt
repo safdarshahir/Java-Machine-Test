@@ -1,0 +1,53 @@
+Admin Panel --
+    Prompt for admin pin
+           
+            -- Display the list of all Customers in the Bank
+            -- Display Customer Details of a specific Customer
+            -- Deleting a Customer
+
+to
+
+
+Customer Panel
+    1) Prompt for ACCount No;
+        THen For PIN?
+            -- Transferring Money from One Account to Another account
+            --Depositing Money into Customer Account
+            -- Withdraw Money from Customer Account
+            -- Show Balance of a Customer
+            -- Updating Customer Details
+
+    2) New Customer 
+            if yes -- add Customer
+            goto step 1.
+
+ 
+
+
+Customer requirements 
+
+listing all customer details..
+     -----------------------------------------------------------------------------------------------------
+                                       Customer List
+ -----------------------------------------------------------------------------------------------------
+    Account No.    Name            Phone           Email                          Balance         
+ -----------------------------------------------------------------------------------------------------
+  600177171       Sophiya         7654879898      sophie1998@gmail.com           55000.00       
+  609452819       safdar          8787659034      saf@gmail.com                  50000.00       
+  642965853       Kevin           9876051234      kevin@rootmail.com             200000.00      
+ -----------------------------------------------------------------------------------------------------
+--Development steps
+
+1. create packages
+        --com.nissan.bean
+            Customer.java
+            Admin.java
+        --com.nissan.dao
+            -- customerDao.java
+                Customer cred operation in - Customer Library
+
+            -- AdminDao.java
+                Admin related CRUD operation.
+
+        --com.nissan.app
+            BankAtmApp.java -- entry point
